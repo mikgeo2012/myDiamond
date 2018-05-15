@@ -33,3 +33,12 @@ The entire app will be cloud hosted in order dynamically scale depending on load
     </p>
 </details>
 
+    
+### ETL Solution
+
+- *Run in weekly in the background to not interrupt user experience while still keeping data relevant.*
+  - Scrape diamond wholesalers (e.g. James Allen) for GIA certificate.
+  - Update price / remove sold from existing diamonds
+  - Extract GIA number from certificate and compile data / store clarity diagram from [GIA](www.gia.edu).
+  - Perform image analysis on clarity diagram to give a clarity score
+  - Calculate metrics on new diamonds
