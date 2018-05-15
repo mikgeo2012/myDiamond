@@ -27,7 +27,7 @@ In addition, create a web app that allows the user to organize and chart the dat
   </ul>
 
 
-![Architecture Diagram](/myDiamond.png?raw=true "Optional Title")
+![Architecture Diagram](/application_architecture.png?raw=true "Optional Title")
 </p>
 </details>
 
