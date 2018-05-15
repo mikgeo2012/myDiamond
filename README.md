@@ -29,7 +29,7 @@ The entire app will be cloud hosted in order dynamically scale depending on load
 <details>
   <summary><b>Diagram<b></summary>
   <p>
-    <img src="/app_architecture.png?raw=true" alt="Mountain View">
+    <img src="/architecture.png?raw=true" alt="Architecture Diagram">
     </p>
 </details>
 
