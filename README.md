@@ -8,6 +8,8 @@ Implement a performant, scalable ETL solution for diamond data.
 
 The entire app will be cloud hosted in order dynamically scale depending on load.
 
+***
+
 ## Design & Architecture
 
 ### Application Architecture
@@ -18,6 +20,7 @@ The entire app will be cloud hosted in order dynamically scale depending on load
   - Golang for concurrency and easy deployment and scaling in the cloud.
   - Python for machine learning, data analysis and image processing.
   - Angular to serve a dynamic front-end.
+  <br>
 - Employ event-driven architecture for the ETL solution to coordinate between several microservices working with several datastores.
   - NoSQL key-value store DB for diamond data because of large weekly writes and scaling read requests from web server
   - Cloud file store to temporarily hold documents and images
