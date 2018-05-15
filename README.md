@@ -27,7 +27,7 @@ The entire app will be cloud hosted in order dynamically scale depending on load
   - Message queue to trigger events and pass information while keeping the microservices decoupled  
 
 <details>
-  <summary><b>Diagram<b></summary>
+  <summary>Diagram</summary>
   <p>
     <img src="/architecture.png?raw=true" alt="Architecture Diagram">
     </p>
