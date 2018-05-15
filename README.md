@@ -22,11 +22,11 @@ The entire app will be cloud hosted in order dynamically scale depending on load
   - NoSQL key-value store DB for diamond data because of large weekly writes and scaling read requests from web server
   - Cloud file store to temporarily hold documents and images
   - Message queue to trigger events and pass information while keeping the microservices decoupled  
-<br />
 
 <details>
-  <summary>Diagram</summary>
+  <summary><h3>Diagram</h3></summary>
   <p>
+    <br />
     <img src="/application_architecture.png?raw=true" alt="Mountain View">
   </p>
 </details>
