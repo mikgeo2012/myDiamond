@@ -49,3 +49,17 @@ The entire app will be cloud hosted in order dynamically scale depending on load
     <img src="/UML_sequence.png?raw=true" alt="Sequence Diagram">
     </p>
 </details>
+
+
+### Tech Stack
+
+- Golang for back-end microservices and data layer
+- Python for data analysis, image processing and web scraping
+- Angular for the web app
+- Use Google Cloud Platform for infrastructure and data store
+  - Google Cloud DataStore as NOSQL DB for diamond data
+  - Google Cloud Storage for storing GIA certificates and clarity diagram images
+  - Google Cloud Pub/Sub as event router
+  - Docker and Google Kubernetes Engine to deploy microservices to the cloud
+
+
